@@ -1,0 +1,17 @@
+version: "1"
+services:
+  postgres:
+    image: postgres:16.3-alpine
+    container_name: postgres_pump_up_your_ass
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: password
+      PGSSLMODE: disable
+      POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - ./pg:/var/lib/postgresql/data
+networks:
+  default:
+    name: pump_up_your_ass_network
+    external: true
