@@ -1,12 +1,2 @@
 __pycache__/
 .idea/
-!/pg/pg_commit_ts/1
-!/pg/pg_dynshmem/1
-!/pg/pg_notify/1
-!/pg/pg_replslot/1
-!/pg/pg_serial/1
-!/pg/pg_snapshots/1
-!/pg/pg_stat/1
-!/pg/pg_stat_tmp/1
-!/pg/pg_tblspc/1.txt
-!/pg/pg_twophase/1
