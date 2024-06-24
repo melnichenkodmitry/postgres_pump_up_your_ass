@@ -2,7 +2,8 @@ version: "1"
 services:
   postgres:
     image: postgres:16.3-alpine
-    container_name: postgres_pump_up_your_ass
+    container_name: postgres_puya
+    user: root
     ports:
       - 5432:5432
     environment:
