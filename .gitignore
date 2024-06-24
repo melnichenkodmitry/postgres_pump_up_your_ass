@@ -8,5 +8,5 @@ __pycache__/
 !/pg/pg_snapshots/1
 !/pg/pg_stat/1
 !/pg/pg_stat_tmp/1
-!/pg/pg_tblspc/1
+!/pg/pg_tblspc/1.txt
 !/pg/pg_twophase/1
