@@ -8,6 +8,8 @@ create_dirs:
 	mkdir pg/pg_replslot 2>/dev/null || true
 	mkdir pg/pg_serial 2>/dev/null || true
 	mkdir pg/pg_snapshots 2>/dev/null || true
+	mkdir pg/pg_logical/snapshots 2>/dev/null || true
+	mkdir pg/pg_logical/mappings 2>/dev/null || true
 	mkdir pg/pg_stat 2>/dev/null || true
 	mkdir pg/pg_stat_tmp 2>/dev/null || true
 	mkdir pg/pg_tblspc 2>/dev/null || true
